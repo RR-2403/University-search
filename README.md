@@ -1,6 +1,8 @@
 # UniAtlas — University Finder
 
 A modern, web-based university finder application that allows users to search for universities across the globe by country or state name.
+<img width="1353" height="587" alt="image" src="https://github.com/user-attachments/assets/96b8c357-7a42-45aa-9da0-09c869d4eaad" />
+
 
 ## Overview
 
