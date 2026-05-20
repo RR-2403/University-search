@@ -64,6 +64,8 @@ axios.get("http://universities.hipolabs.com/search?name=India")
 
   <img width="962" height="512" alt="image" src="https://github.com/user-attachments/assets/a5a74204-1f2e-4d18-9af1-f7ac0472a37a" />
 
+  <img width="948" height="544" alt="image" src="https://github.com/user-attachments/assets/d9c54dee-7559-4cd4-991c-fb950934418c" />
+
 
 ### Result Display
 - Shows count of institutions found
