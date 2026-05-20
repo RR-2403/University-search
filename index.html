@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UniAtlas — University Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <header>
+    <div class="logo">
+      <span class="logo-icon">◎</span>
+      <span class="logo-text">UniAtlas</span>
+    </div>
+    <p class="tagline">Explore universities across the globe</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Find Universities<br/><em>by Country/State</em></h1>
+      <p class="hero-sub">Enter a country or state name and discover all accredited institutions listed in the global directory.</p>
+
+      <div class="search-box">
+        <div class="input-wrapper">
+          <span class="input-icon">⌕</span>
+          <input type="text" placeholder="e.g. India, Germany, Japan…" />
+        </div>
+        <button>Search</button>
+      </div>
+
+      <div class="status-bar" id="status-bar"></div>
+    </section>
+
+    <section class="results-section" id="results-section">
+      <div class="results-header" id="results-header"></div>
+      <ul id="result"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data sourced from <a href="http://universities.hipolabs.com" target="_blank">Hipolabs University API</a> &nbsp;·&nbsp; Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
