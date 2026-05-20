@@ -62,6 +62,9 @@ axios.get("http://universities.hipolabs.com/search?name=India")
 - Asynchronous API calls with Axios
 - Loading state indication with animated dots
 
+  <img width="962" height="512" alt="image" src="https://github.com/user-attachments/assets/a5a74204-1f2e-4d18-9af1-f7ac0472a37a" />
+
+
 ### Result Display
 - Shows count of institutions found
 - Displays university names in an organized list
